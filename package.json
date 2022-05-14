@@ -1,0 +1,22 @@
+{
+  "name": "javascript-unit-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burak48/javascript-unit-testing.git"
+  },
+  "author": "Burak Saglam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burak48/javascript-unit-testing/issues"
+  },
+  "homepage": "https://github.com/burak48/javascript-unit-testing#readme",
+  "devDependencies": {
+    "vitest": "^0.12.6"
+  }
+}
