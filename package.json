@@ -2,9 +2,11 @@
   "name": "javascript-unit-testing",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "vitest --globals"
+    "test": "vitest --run --reporter verbose",
+    "test:watch": "vitest",
+    "start": "http-server -c-1"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,10 @@
   "homepage": "https://github.com/burak48/javascript-unit-testing#readme",
   "devDependencies": {
     "vitest": "^0.12.6"
+  },
+  "dependencies": {
+    "http-server": "^14.1.0",
+    "install": "^0.13.0",
+    "npm": "^8.10.0"
   }
 }
