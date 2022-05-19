@@ -24,6 +24,7 @@
   "dependencies": {
     "http-server": "^14.1.0",
     "install": "^0.13.0",
+    "jsonwebtoken": "^8.5.1",
     "npm": "^8.10.0"
   }
 }
