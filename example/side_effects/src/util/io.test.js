@@ -21,7 +21,7 @@ vi.mock('path', () => {
 //     return expect(writeData(testData, testFileName)).resolves.toBeUndefined();
 // });
 
-it('should execute the writeFile method - v2', () => {
+it('should return a promise that resolves to no value if called correctly - v2', () => {
     const testData = 'Test';
     const testFileName = 'test.txt';
     
